@@ -1,67 +1,253 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Medium Clone</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/52df45114a.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-warning border-bottom border-dark">
-        <div class="container py-2">
-          <a class="navbar-brand" href="#">MD Clone</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <a class="nav-link" aria-current="page" href="#">Our Story</a>
-              <a class="nav-link" href="#">Membership</a>
-              <a class="nav-link" href="#">Write</a>
-              <a class="nav-link" href="#">Sing In</a>
-              <a class="nav-link btn btn-dark text-light px-3 ms-3 rounded-pill" style="font-size: 14px;">Get Started</a>
-            </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Medium Clone</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/52df45114a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg bg-warning border-bottom border-dark">
+    <div class="container py-2">
+      <a class="navbar-brand" href="#">MD Clone</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="font-family:medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" aria-current="page" href="#">Our Story</a>
+          <a class="nav-link" href="#">Membership</a>
+          <a class="nav-link" href="#">Write</a>
+          <a class="nav-link" href="#">Sing In</a>
+          <a class="nav-link btn btn-dark text-light px-3 ms-3 rounded-pill" style="font-size: 14px;">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Hero Start -->
+  <div class="bg-warning border-bottom border-dark">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-sm-6 d-flex align-items-center">
+          <div>
+            <h2 class="display-1" style="font-family:Georgia, 'Times New Roman', Times, serif;">
+              Stay cruious.
+            </h2>
+            <p class="lead" style="font-family:sohne, Helvetica Neue, Arial, Helvetica, sans-serif;">Discover stories, thinking, and expertise from writers on any topic.</p>
+            <a href="" class="btn btn-dark text-light rounded-pill px-5 py-1">Start Reading</a>
           </div>
         </div>
-      </nav>
-    <!-- Navbar End -->
-
-    <!-- Hero Start -->
-    <div class="bg-warning">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-sm-6 d-flex align-items-center">
-                    <div>
-                        <h2 class="display-1">
-                            Stay cruious
-                        </h2>
-                        <p class="lead">Discover stories, thinking, and expertise from writers on any topic.</p>
-                        <a href="" class="btn btn-dark text-light rounded-pill px-3 py-2">Start Reading</a>
-                    </div>
-                </div>
-            <div class="col-sm-6">
-                <img src="https://picsum.photos/id/4/1000/400?grayscale" alt="" class="w-100">
-            </div>
-            </div>
+        <div class="col-sm-6 ">
+          <img src="https://picsum.photos/id/4/1000/400?grayscale" alt="" class="w-100">
         </div>
+      </div>
     </div>
-    <!-- Hero Start -->
-    
+  </div>
+  <!-- Hero Start -->
+
+  <!-- Trends Start -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 mt-5">
+        <h2 class="fs-12">
+            <span class="badge bg-dark rounded-circle p-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                height="16" fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z" />
+              </svg></span>
+          <span class="fs-12 text-dark ms-2" style="font-family: sohne, Helvetica Neue, Helvetica, Arial Narrow Bold, sans-serif;"> 
+            Trending on Medium</span>
+        </h2>
+      </div>
+    </div>
+    <div class="row">
+      <!-- article 1 Start-->
+      <article class="col-sm-4">
+        <div class="row">
+          <div class="col-2 text-muted fs-1 op-4">01</div>
+          <div class="col-10 mt-4">
+            <div>
+              <a href="#" class="text-decoration-none text-muted">
+                <img class="rounded-circle" src="https://picsum.photos/id/10/30/30?grayscale" alt="">
+                <small class="ms-2">Praveen Seshadri</small>
+              </a>
+            </div>
+            <div>
+              <h2 class="h6 mt-1">
+                <a href="#" class="text-decoration-none text-dark">
+                  Lorem ipsum dolor sit.
+                </a>
+              </h2>
+              <ul class="list-inline op-4 fs-12">
+                <li class="list-inline-item ">Feb 14</li>
+                <li class="list-inline-item ">15 min read</li>
+              </ul>
+            </div> 
+          </div>
+        </div>
+      </article>
+      <!-- article 1 End -->
+      
+      
+      <!-- article 2 Start -->
+      <article class="col-sm-4">
+        <div class="row">
+          <div class="col-2 text-muted fs-1 op-4">02</div>
+          <div class="col-10 mt-4">
+            <div>
+              <a href="#" class="text-decoration-none text-muted">
+                <img class="rounded-circle" src="https://picsum.photos/id/10/30/30?grayscale" alt="">
+                <small class="ms-2">Praveen Seshadri</small>
+              </a>
+            </div>
+            <div>
+              <h2 class="h6 mt-1">
+                <a href="#" class="text-decoration-none text-dark">
+                  Lorem ipsum dolor sit.
+                </a>
+              </h2>
+              <ul class="list-inline op-4 fs-12">
+                <li class="list-inline-item ">Feb 14</li>
+                <li class="list-inline-item ">15 min read</li>
+              </ul>
+            </div> 
+          </div>
+        </div>
+      </article>
+      <!-- article 2 End -->
+
+      <!-- article 3 Start -->
+      <article class="col-sm-4">
+        <div class="row">
+          <div class="col-2 text-muted fs-1 op-4">03</div>
+          <div class="col-10 mt-4">
+            <div>
+              <a href="#" class="text-decoration-none text-muted">
+                <img class="rounded-circle" src="https://picsum.photos/id/10/30/30?grayscale" alt="">
+                <small class="ms-2">Praveen Seshadri</small>
+              </a>
+            </div>
+            <div>
+              <h2 class="h6 mt-1">
+                <a href="#" class="text-decoration-none text-dark">
+                  Lorem ipsum dolor sit.
+                </a>
+              </h2>
+              <ul class="list-inline op-4 fs-12">
+                <li class="list-inline-item ">Feb 14</li>
+                <li class="list-inline-item ">15 min read</li>
+              </ul>
+            </div> 
+          </div>
+        </div>
+      </article>
+      <!-- article 3 End -->
+    </div>
+
+    <div class="row">
+      <!-- article 4 Start-->
+      <article class="col-sm-4">
+        <div class="row">
+          <div class="col-2 text-muted fs-1 op-4">04</div>
+          <div class="col-10 mt-4">
+            <div>
+              <a href="#" class="text-decoration-none text-muted">
+                <img class="rounded-circle" src="https://picsum.photos/id/10/30/30?grayscale" alt="">
+                <small class="ms-2">Praveen Seshadri</small>
+              </a>
+            </div>
+            <div>
+              <h2 class="h6 mt-1">
+                <a href="#" class="text-decoration-none text-dark">
+                  Lorem ipsum dolor sit.
+                </a>
+              </h2>
+              <ul class="list-inline op-4 fs-12">
+                <li class="list-inline-item ">Feb 14</li>
+                <li class="list-inline-item ">15 min read</li>
+              </ul>
+            </div> 
+          </div>
+        </div>
+      </article>
+      <!-- article 4 End -->
+      
+      
+      <!-- article 5 Start -->
+      <article class="col-sm-4">
+        <div class="row">
+          <div class="col-2 text-muted fs-1 op-4">05</div>
+          <div class="col-10 mt-4">
+            <div>
+              <a href="#" class="text-decoration-none text-muted">
+                <img class="rounded-circle" src="https://picsum.photos/id/10/30/30?grayscale" alt="">
+                <small class="ms-2">Praveen Seshadri</small>
+              </a>
+            </div>
+            <div>
+              <h2 class="h6 mt-1">
+                <a href="#" class="text-decoration-none text-dark">
+                  Lorem ipsum dolor sit.
+                </a>
+              </h2>
+              <ul class="list-inline op-4 fs-12">
+                <li class="list-inline-item ">Feb 14</li>
+                <li class="list-inline-item ">15 min read</li>
+              </ul>
+            </div> 
+          </div>
+        </div>
+      </article>
+      <!-- article 5 End -->
+
+      <!-- article 6 Start -->
+      <article class="col-sm-4">
+        <div class="row">
+          <div class="col-2 text-muted fs-1 op-4">06</div>
+          <div class="col-10 mt-4">
+            <div>
+              <a href="#" class="text-decoration-none text-muted">
+                <img class="rounded-circle" src="https://picsum.photos/id/10/30/30?grayscale" alt="">
+                <small class="ms-2">Praveen Seshadri</small>
+              </a>
+            </div>
+            <div>
+              <h2 class="h6 mt-1">
+                <a href="#" class="text-decoration-none text-dark">
+                  Lorem ipsum dolor sit.
+                </a>
+              </h2>
+              <ul class="list-inline op-4 fs-12">
+                <li class="list-inline-item ">Feb 14</li>
+                <li class="list-inline-item ">15 min read</li>
+              </ul>
+            </div> 
+          </div>
+        </div>
+      </article>
+      <!-- article 6 End -->
+    </div>
+  </div>
+  <hr>
+  <!-- Trends End -->
 
 
 
 
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
 
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
 </html>
