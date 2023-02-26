@@ -6,6 +6,27 @@
     opacity: 0.4;
 }
 
+.trand-number{
+    color: rgba(230, 230, 230, 1);
+    letter-spacing: 0;
+    line-height: 36px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: sohne,"Helvetica Neue, Helvetica, Arial, sans-serif";
+}
+
 .fs-12{
     font-size: 12px;
 }
+.fs-14{
+    font-size: 14px;
+}
+
+.fs-85{
+    font-size: 85px;
+}
+.mt-60{
+    margin-top: 60px;
+    height: 430px;
+}
+
